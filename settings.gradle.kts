@@ -8,4 +8,4 @@
  */
 
 rootProject.name = "edcdemo"
-include("app")
+include("client")

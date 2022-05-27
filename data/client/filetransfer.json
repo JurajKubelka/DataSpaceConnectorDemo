@@ -1,0 +1,19 @@
+{
+	"connectorId" : "consumer",
+	"assetId" : "herbert-blood-analysis",
+	"connectorAddress" : "http://localhost:8282/api/v1/ids/data",
+	"contractId" : "{agreement ID}",
+	"dataDestination" : {
+		"properties" : {
+			"path" : "{path to destination file}",
+			"keyName" : "keyName",
+			"type" : "File"
+		}
+	},
+	"protocol" : "ids-multipart",
+	"managedResources" : false,
+	"transferType" : {
+		"contentType" : "application/octet-stream",
+		"isFinite" : true
+	}
+}

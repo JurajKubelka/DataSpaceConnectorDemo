@@ -1,0 +1,1 @@
+Directory where received files are placed.

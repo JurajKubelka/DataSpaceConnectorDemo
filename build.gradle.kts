@@ -9,5 +9,6 @@ allprojects {
             url = uri("https://maven.iais.fraunhofer.de/artifactory/eis-ids-public")
         }
     }
-//    group = "org.polypoly.dataloft.demo"
+    group = "org.polypoly.dataloft.demo"
+
 }

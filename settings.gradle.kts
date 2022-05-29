@@ -9,5 +9,6 @@
 
 rootProject.name = "edcdemo"
 include("client")
+include("client-auth")
 include("hospital")
 include("transfer-file")

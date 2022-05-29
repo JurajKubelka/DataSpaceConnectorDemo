@@ -6,6 +6,7 @@ plugins {
 
 val edcVersion: String by project
 val edcGroup: String by project
+val thisGroup: String by project
 val jupiterVersion: String by project
 val rsApi: String by project
 
@@ -17,7 +18,7 @@ dependencies {
     implementation("${edcGroup}:filesystem-configuration:${edcVersion}")
     implementation("${edcGroup}:iam-mock:${edcVersion}")
 
-    implementation("${edcGroup}:auth-tokenbased:${edcVersion}")
+    implementation(project(":client-auth"))
     implementation("${edcGroup}:data-management-api:${edcVersion}")
 
     implementation("${edcGroup}:ids:${edcVersion}") {
